@@ -10,7 +10,7 @@
 #ifdef STM32
 extern "C" {
 #include"stm32f4xx.h"
-#include "/home/mike/Desktop/stm32/STM32F4-Discovery_FW_V1.1.0/Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_tim.h"
+#include "stm32f4xx_tim.h"
 //uint32_t TIM_GetCounter(TIM_TypeDef* TIMx);
 }
 #endif
